@@ -1,22 +1,21 @@
-<h1>Epi-Blog: A safe place for Epicodus Students to express themselves</h1>
-<h3><center>Latest Posts</center></h3>
-<ul>
-  {{#each model.posts as |post|}}
-    {{post-tile post=post}}
-  {{/each}}
-</ul>
 
-<h2> All comments </h2>
 
-<ul>
-  {{#each model.comments as |comment|}}
-    {{comment.title}}
-    By {{comment.author}}
-    {{comment.body}}
-  {{/each}}
-</ul>
+    <h1>Epi-Blog: A safe place for Epicodus Students to express themselves</h1>
+    <h3><center>Latest Posts</center></h3>
 
+  <h3>Publish a: {{new-post savePost="savePost" post=model}}</h3>
+  <ul>
+    {{#each model.posts as |post|}}
+      {{post-tile post=post}}
+    {{/each}}
+  </ul>
 <hr>
+  <h3> All comments </h3>
 
-
-{{new-post savePost="savePost" post=model}}
+  <ul>
+    {{#each model.comments as |comment|}}
+    <li>  {{comment.title}}
+      By {{comment.author}}
+      {{comment.body}}</li>
+    {{/each}}
+  </ul>
