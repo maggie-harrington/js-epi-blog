@@ -4,4 +4,11 @@
 <h5>Publish on {{post.date}}</h5>
 <p>{{post.body}}</p>
 
+<h2> Comments </h2>
+<ul>
+  {{#each post.comments as |comment|}}
+    {{comment-tile comment=comment}}
+  {{/each}}
+</ul>
+
 <button {{action 'delete' post}}>Delete</button>

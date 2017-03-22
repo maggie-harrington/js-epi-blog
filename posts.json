@@ -26,5 +26,14 @@
         "author": "Stella Huayhuaca",
         "body": "Students should protest to be able to eat at the workstation as long as we are not messy! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "category": "social"
-    }]
+    }],
+    "comments": [{
+       "author": "Andrea",
+       "title": "I like your post",
+       "body": "I agree."
+     }, {
+       "author": "Alex",
+       "title": "Maybe",
+       "body": "Nice view of the volcano!"
+     }]
 }

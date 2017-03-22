@@ -1,9 +1,22 @@
 <h1>Epi-Blog: A safe place for Epicodus Students to express themselves</h1>
 <h3><center>Latest Posts</center></h3>
 <ul>
-  {{#each model as |post|}}
+  {{#each model.posts as |post|}}
     {{post-tile post=post}}
   {{/each}}
 </ul>
 
-{{new-post savePost="savePost"}}
+<h2> All comments </h2>
+
+<ul>
+  {{#each model.comments as |comment|}}
+    {{comment.title}}
+    By {{comment.author}}
+    {{comment.body}}
+  {{/each}}
+</ul>
+
+<hr>
+
+
+{{new-post savePost="savePost" post=model}}
