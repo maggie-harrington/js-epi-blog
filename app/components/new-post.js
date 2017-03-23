@@ -22,3 +22,11 @@ export default Ember.Component.extend({
         }
     }
 });
+// App.ApplicationController = Ember.ObjectController.extend({
+//   categories: [
+//     {name: "social"},
+//     {name: "administration"},
+//     {name: "jobs"},
+//     {name: "languages"}
+//   ]
+// });

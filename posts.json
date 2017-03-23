@@ -31,9 +31,18 @@
        "author": "Andrea",
        "title": "I like your post",
        "body": "I agree."
-     }, {
+    }, {
        "author": "Alex",
        "title": "Maybe",
        "body": "Nice view of the volcano!"
-     }]
+    }],
+    "categories": [{
+      "name": "social"
+    }, {
+      "name": "languages"
+    }, {
+      "name": "administration"
+    }, {
+      "name": "jobs"
+    }]
 }

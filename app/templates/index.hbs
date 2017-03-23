@@ -14,8 +14,6 @@
 
   <ul>
     {{#each model.comments as |comment|}}
-    <li>  {{comment.title}}
-      By {{comment.author}}
-      {{comment.body}}</li>
+    <li>  {{comment-tile comment=comment}}</li>
     {{/each}}
   </ul>

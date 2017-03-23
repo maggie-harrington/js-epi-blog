@@ -3,6 +3,8 @@
 <h4>By {{post.author}}</h4>
 <h5>Publish on {{post.date}}</h5>
 <p>{{post.body}}</p>
+<!-- <p>category:{{post.category}}</p> -->
+<button {{action 'delete' post}}>Delete</button>
 
 <h2> Comments </h2>
 <ul>
@@ -10,5 +12,3 @@
     {{comment-tile comment=comment destroyComment="destroyComment"}}
   {{/each}}
 </ul>
-
-<button {{action 'delete' post}}>Delete</button>
